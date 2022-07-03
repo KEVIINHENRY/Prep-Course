@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { add } = require("@11ty/eleventy/src/TemplateCache");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "kevin";
 
@@ -278,12 +280,6 @@ function esVocal(letra){
   } else {
     return "Dato incorrecto"
   }
-
-
-  
-  
-    
-     
   
 
   
