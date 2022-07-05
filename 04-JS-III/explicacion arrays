@@ -1,0 +1,5 @@
+Arrays : los arrays permiten almacenar un conjunto de elementos asignados dentro de una variable.
+Para crear una matriz/array solo debemos declarar una variable estableciendola con [].
+ Se le agregan valores luego, que van separados por coma. Pueden acceder a cada elemento de un array
+incovandolo con numeros dentro de un corchete. Es importante saber que 
+ en los arrays se permiten cualquier tipo de datos, tantos "strigns", numeros, boleanos. undefinded y null.
