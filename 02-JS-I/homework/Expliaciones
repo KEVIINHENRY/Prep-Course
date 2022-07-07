@@ -1,0 +1,19 @@
+  variable : es una dorma de almacenar algo para usarlo mas tarde.
+  Primero usaremos var y seguido de un espacio y el nombre de esa variable(con ese nombre nos haremos referencia a ella)
+ tambien le podemos asignar un valor utlizando el signo =
+ strings: son bloques de texto que siempre van definidos por comillas simple o doble,
+ cualquier texto entre comillas es una cadena o string.
+ funciones: son un tipo particulares de obletos llamandos callable objects (objetos invocables)
+ cuando delcaramos las variables necesitamos funciones para hacer algo con ellas, cambiarlas o calcularlas.
+  Una funcion comienza con la palabra function seguido del nombre que por lo general
+ es un nombre que indica lo que hace. seguido de un parentesis abierto y uno cerrado,
+ luego un corchete abierto y uno cerado. Dentro de los corchetes es donde ira todo nuestro codigo a ejecutar.
+arguments: se usan dentro de las funciones y van dentro de los parentesis al declarar la funcion
+ cuando asignamos un nombre. Si declaramos una variable entre los parentesis podemos utilizar esa variable dentro de la funcion. Podemos darle valor a esa variable pasandole a la funcion cuando la llamamos y
+podemos agregar multiples argumentos separandolos por coma entre ellos.
+return : podemos pensar en "return" como la  unica forma  que los datos puedan escapar de una funcion. Utilizamos 
+este para devolver o retornar algo. Cuando una funcion golpea una declaracion de retorno, la misma se detiene inmediatamente y deja de hacer lo que estaba haciendo y devuelve lo especificado en el return.
+if: el flujo de control o "control flow" es una forma de que nuestra funcion verifique si algo es true, ejecutando lo especificado o avanzando si no lo es. Es para eso que usaremos la palabra clave "if" y significa "si".
+valores booleanos: provienen de la logica de boole y es un concepto que alimenta el codigo binario y el nucleo de las computadoras. Basicamente significa que tenes dos opciones, activar o desactivar, 0 o 1, verdadero o falso.
+Los valores booleanos posibles en JavaScript son true o false.
+

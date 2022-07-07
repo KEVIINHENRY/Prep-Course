@@ -1,0 +1,16 @@
+for: javascript tiene dos expresiones de bucles incorporadas y una de ellas es el bucle for.
+el for tiene una sintaxis unica, parecida a la instruccion "if" pero un poco mas compleja.
+primero tenemos la palabra clave for seguido entre parentesis necesitamos 3 cosas..
+primero declaramos una variable que sobre los que se repetira el bucle.
+segundo, una expresion condicional, el ciclo se ejecutara todas las veces y se detiene cuando esto sea false.
+y tercero es donde incrementaremos nuestra variable, las 3 declaraciones deben estar separadas por ";"
+
+operadores logicos : con ellos podemos comparar dos expresiones y ver si ambas son verdaderas o si una de ellas o ninguna.
+ tenemos && : este operador que significa "y". y nos ayuda a comparar dos expresiones.
+ si ambas son verdadera devuelve true y si una o las dos son falsas devolvera false.
+ tenemos || y signica "o" . Nos sirve para comparar si una de ellas o ambas expresiones puede ser veradera y en ese caso 
+ devuelve true y si ambas son falsas devuelve false
+ tenemos ! que es el operador "not"  y nos devolvera el valor booleano opuesto de lo que se le pasa.
+ este operador de usa en la cobinacion !== que sginica "NO es igual"
+  
+
