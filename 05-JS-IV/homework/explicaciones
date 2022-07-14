@@ -1,0 +1,18 @@
+OBJETOS : nos podemos referir a los objetos como contenedores de datos. Loa objetos puedan contener mucha informacion
+sobre una sola cosa. Los obletos de instancian usando llaves "{}".
+A diferencia de las matrices que tienen los elementos valorados en indices, los objetos usan un concepto llamado pares de
+"clave: valor". la clave es el identificador (key) y el valor es el valor que le queremos dar a esa clave (value).
+Los objetos pueden contener muchos pares de clave:valor, pero deben estar separados por una coma, importante.
+Las claves son unicas dentro de un objeto, no se pueden repetir, en cambio varias claves pueden contener el 
+mismo valor. Los valores pueden ser cualquier tipo de dato, booleanos, numeros, funciones, cadenas, o hasta un mismo objeto.
+NOTACION DE PUNTOS Y CORCHETES: Una vez que tengamos esos pares de clave-valor podemos acceder a esos valores, llamando al nombre del objeto y la clave. Hay distitntas formas de llamar a esos valores, usando puntos o corchetes.
+Con la notacion de puntos, ponemos el objeto seguido de un punto y el nombre de la clave.
+Con los corchetes es como llamar a un elemento en una matriz, aunque con corchetes debemos usar una cadena o numero, o
+una variable que apunte a una cadena o numero. Podemos llamar a cada clave envolviendolo en comillas.
+
+METODOS: las funciones guardadas en un objeto lo llamamos metodo. Ya utilizamos muchos metodos anteriormente, como length, push, pop... Podemos establecer la clave para un nombre y el valor para una funcion.
+Al igual que otras veces que llamamos metodos, llamaremos a este metodo usando notacion de puntos y parentesis finales.
+
+BUCLE FOR IN : A veces queremos recorrer sobre cada par de clave-valor en nuestro objeto y usamos un bucle for con una variable de numero de indice. En caso de los objetos, no tienen indices numericos por lo que no funcionaria usando ese bucle estandar.
+Es por eso que Javascript tiene ootro bucle un poquito diferente, que comienza igual pero entre parentesis declaramos una variable, seguida de la palabra clave "in" y del nombre del objeto. Esto recorrera todas las claves del objeto y finalizara cuando recorra todas. Se puede usar esta clave, y la notacion de corchetes en nuestro bucle for para acceder
+al valor asociado con esa clave.
