@@ -1,0 +1,10 @@
+Prototype : Es una forma de establecer un metodo una sola vez y luego dar acceso 
+a cada  objeto de esa clase a esos etodos. Cada clase tienen una propiedad prototype 
+que luego podemos establecer en metodos.
+Los metodos del prototype tienen acceso a la palabra clave this y al igual que antes 
+siempre apuntara al objeto que lo este llamando
+
+Constructores : O tambien llamado clases, sirven para crear muchos objetos que comparten
+las mismas propiedades y metodos.
+Para crear  una clase usamos la palabra clave "new" y por convencion el nombre de la clase 
+comienza con mayuscula.
