@@ -1,0 +1,4 @@
+Callbacks : son funciones que son pasadas como argumentos dentro de una funcion.
+Estas funciones pueden llamarse en cualquier momento y pueden pasarles 
+sus propios argumentos dentro de la funcion. Por convencion se usa la palabra clave "cb"
+como argumento para la variable que se usara de Callbacks.
